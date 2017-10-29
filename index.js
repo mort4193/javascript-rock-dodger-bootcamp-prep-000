@@ -99,7 +99,7 @@ function endGame() {
   clearInterval(gameInterval)
   ROCKS.forEach(function(rock) {rock.remove()})
 
-  document.removeEventListener('keydown', moveDodger)
+  removeEventListener('keydown', moveDodger)
 START.innerHTML ="Play Again?"
 START.style.dispay="inline"
 
