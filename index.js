@@ -103,7 +103,7 @@ function endGame() {
 START.innerHTML ="Play Again?"
 START.style.dispay="inline"
 
-return alert("You Lose!")
+alert("You Lose!")
 }
 
 function moveDodger(e) {
@@ -115,7 +115,7 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-   
+
 }
 
 function moveDodgerLeft() {
