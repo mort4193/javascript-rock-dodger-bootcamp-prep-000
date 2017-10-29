@@ -96,10 +96,10 @@ function createRock(x) {
  * Finally, alert "YOU LOSE!" to the player.
  */
 function endGame() {
-  document.removeEventListener("keydown", moveDodger)
   clearInterval(gameInterval)
   ROCKS.forEach(function(rock) {rock.remove()})
 
+  document.removeEventListener('keydown', moveDodger)
 START.innerHTML ="Play Again?"
 START.style.dispay="inline"
 
@@ -115,6 +115,7 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
+   
 }
 
 function moveDodgerLeft() {
